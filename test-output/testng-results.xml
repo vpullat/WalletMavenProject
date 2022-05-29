@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-29T14:47:25Z" name="Suite" finished-at="2022-05-29T14:48:11Z" duration-ms="45428">
+    <groups>
+    </groups>
+    <test started-at="2022-05-29T14:47:25Z" name="FacebookTest" finished-at="2022-05-29T14:47:39Z" duration-ms="14258">
+      <class name="tests.FacebookTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FacebookTest@394df057]" started-at="2022-05-29T14:47:25Z" name="setup" finished-at="2022-05-29T14:47:33Z" duration-ms="7448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="postFacebookStatus()[pri:0, instance:tests.FacebookTest@394df057]" started-at="2022-05-29T14:47:33Z" name="postFacebookStatus" finished-at="2022-05-29T14:47:39Z" duration-ms="6095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postFacebookStatus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.FacebookTest@394df057]" started-at="2022-05-29T14:47:39Z" name="teardown" finished-at="2022-05-29T14:47:39Z" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.FacebookTest -->
+    </test> <!-- FacebookTest -->
+    <test started-at="2022-05-29T14:47:39Z" name="WalletHubTest" finished-at="2022-05-29T14:48:11Z" duration-ms="31143">
+      <class name="tests.WalletHubTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.WalletHubTest@762ef0ea]" started-at="2022-05-29T14:47:39Z" name="setup" finished-at="2022-05-29T14:47:55Z" duration-ms="15620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wallethub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fnReviewInsurance()[pri:0, instance:tests.WalletHubTest@762ef0ea]" started-at="2022-05-29T14:47:55Z" name="fnReviewInsurance" finished-at="2022-05-29T14:48:10Z" duration-ms="14660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnReviewInsurance -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.WalletHubTest@762ef0ea]" started-at="2022-05-29T14:48:10Z" name="teardown" finished-at="2022-05-29T14:48:11Z" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.WalletHubTest -->
+    </test> <!-- WalletHubTest -->
+  </suite> <!-- Suite -->
+</testng-results>

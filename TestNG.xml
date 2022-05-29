@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  >
+<test name="FacebookTest">
+    <parameter name = "app" value="facebook"/>
+        <classes>
+            <class name="tests.FacebookTest">
+            </class>
+        </classes>
+    </test>
+    <test name="WalletHubTest">
+    <parameter name = "app" value="wallethub"/>
+        <classes>
+            <class name="tests.WalletHubTest">
+            </class>
+        </classes>
+    </test>
+    
+</suite>
