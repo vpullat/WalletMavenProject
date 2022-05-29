@@ -6,7 +6,7 @@
     <classes>
       <class name="tests.WalletHubTest">
         <methods>
-          <include name="fnRateInsurance"/>
+          <include name="fnReviewInsurance"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
